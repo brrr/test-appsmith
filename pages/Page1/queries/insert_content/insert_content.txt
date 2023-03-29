@@ -1,0 +1,6 @@
+INSERT INTO t_test
+  (content)
+VALUES
+  (
+    {{ txt_content.text }}
+  );
